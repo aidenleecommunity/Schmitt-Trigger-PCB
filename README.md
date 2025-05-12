@@ -30,7 +30,7 @@
 	- 8 UMCC connectors
 		- [CONMHF1-SMD-G-T Data Sheet](./Data_Sheet/CONMHF1-SMD-G-T.pdf)
 		- Allows the use of SMA connectors
-![Schmitt-Trigger PCB V1 in KiCAD](./Board/SchTrig_pcb_v1.jpg)
+![Schmitt-Trigger PCB V1 in KiCAD](./Board/SchTrig_pcb_v1.jpeg)
 
 ### V2
 + Addition of the following parts:
