@@ -1,5 +1,8 @@
 # Schmitt-Trigger-PCB
 
+Project done for the Quantum Circuits group led by Dr. Shyam Shankar under supervision of Postdoc Josiah Cochran
+Associated with the University of Texas at Austin
+
 + Problem: The RFSoC boards like ZCU216 & ZCU111 cannot drive 50 Ohm device on their pmod outputs due to their current limitations. The standard LVCMOS I/O banks can often handle 2-12 mA of current, but to drive a 50-Ohm load, about 66 mA is required.
 
 + Solution: The use of a buffer, particularly the dual Schmitt-Trigger buffer (SN74LVC2G17 from TI), allows a tolerance of 24 mA of current at 3.3 V, which enables it to drive the 50-Ohm load.
