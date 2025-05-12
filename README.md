@@ -52,3 +52,32 @@
 ![Schmitt-Trigger PCB V3 in KiCAD](./Board/SchTrig_pcb_v3.jpg)
 
 # Soldering
+#### Step 1.
++ Solder one UMCC connector
+	- Check orientation (The side that touches two diagonally-cut corners is matched with the dot on the PCB; other sides are GND)
+	- Best to start with longer sides
+	- The use of flux eases the process
+![Solder_S1](./Solder_Debug/Solder_UMCC.jpeg)
+
+#### Step 2.
++ Repeat with other UMCC connectors
+![Solder_S2](./Solder_Debug/Solder_8UMCC.jpeg)
+
+#### Step 3.
++ Debug with DMM (Digital Multimeter)
+	- Use DMM's short circuit mode and probe to check connections
+![Solder_S3](./Solder_Debug/DMM_Debug.jpeg)
+
+#### Step 4.
++ Solder one Schmitt-Trigger Buffer and repeat with the rest
+	- Best to solder three legs altogether on each side and use wick to remove the solder (Small amount of solder on each leg stays in place)
+	- Once done, debug with DMM
+![Solder_S4](./Solder_Debug/Solder_SchTrig.jpeg)
+
+#### Step 5.
++ Solder the PinHeader connector
+	- Put a bit more solder than usual to prevent its disconnection with the RFSoC board
+![Solder_S5](./Board/SchTrig_pcb_v1.jpeg)
+
+#### Step 6.
++ Final debug with DMM
