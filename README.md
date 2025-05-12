@@ -1,8 +1,8 @@
 # Schmitt-Trigger-PCB
 
-Project done for the Quantum Circuits group led by Dr. Shyam Shankar under supervision of Postdoc Josiah Cochran
+Project done for the [Quantum Circuits Group](https://sites.utexas.edu/shyamshankar/) led by Dr. Shyam Shankar under supervision of Postdoc Josiah Cochran
 
-Associated with the University of Texas at Austin
+Associated with [the University of Texas at Austin](https://www.utexas.edu/)
 
 + Problem: The RFSoC boards like ZCU216 & ZCU111 cannot drive 50 Ohm device on their pmod outputs due to their current limitations. The standard LVCMOS I/O banks can often handle 2-12 mA of current, but to drive a 50-Ohm load, about 66 mA is required.
 
